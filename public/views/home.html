@@ -1,0 +1,18 @@
+<section class="content-game">
+  <tablero class="tablero"></tablero>
+</section>
+<section ng-show="!inGame" class="content-home">
+  <h1>REVERSI</h1>
+  <!-- <img src="../img/logo.png">      -->
+  <main class='container'>
+    <button ng-click="start_game()" class='myButt one'>
+      <div class='insider'></div>
+      Jugar
+    </button>
+  </main>
+</section>
+<section ng-show="spinner" class="content-spinner">
+  <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+ </svg>
+</section>
