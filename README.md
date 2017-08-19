@@ -1,24 +1,18 @@
-# Pokédex
+# Reversi
 
-A simple Pokédex built with Angular.js
+A simple Reversi game built with Angular.js
 
 ## LEGAL
 
 ### Pokémon
 
-Pokémon images, names and information (c) 1995-2014 Nintendo/Game freak.
-
-Images and content were taken from the following resources:
-
-* [PokéApi](http://pokeapi.co/)
-* [Pokémon Database](http://pokemondb.net/)
-* [veekun/pokedex](https://github.com/veekun/pokedex)
+resources:
 
 This site was built entirely for education purposes only.
 
 ### Code: The MIT License (MIT)
 
-Copyright (c) 2014 Julián Duque
+Copyright (c) 2017 William Bernal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
