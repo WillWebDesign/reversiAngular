@@ -4,7 +4,7 @@ A simple Reversi game built with Angular.js
 
 ## LEGAL
 
-### Pokémon
+### Reversi
 
 resources:
 
