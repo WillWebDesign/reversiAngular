@@ -6,5 +6,10 @@
         restrict: 'E',
         templateUrl: 'partials/tablero.html'
       };
+    }).directive('alert', function () {
+      return {
+        restrict: 'E',
+        templateUrl: 'partials/alert.html'
+      };
     });
 })();

@@ -144,6 +144,21 @@ header h1 {
 	background: radial-gradient(circle at top right, #34495e, #000);
 }
 
+.alert{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.alertActive{
+  display: flex;
+}
+
 @keyframes rotator {
   0% {
     transform: rotate(0deg);
