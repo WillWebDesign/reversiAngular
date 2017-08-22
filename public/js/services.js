@@ -24,16 +24,16 @@
         return deferred.promise;
       }
 
-      function sendPosicion(x,y) {
+      function sendPosicion(x, y) {
         var deferred = $q.defer();
 
         $http({
-          url: config.url+'/movements',
+          url: config.url + '/movements',
           method: "POST",
-          params: { 
+          params: {
             token: config.token,
-            x : x-1,
-            y : y-1 
+            x: x - 1,
+            y: y - 1
           }
         }).then(
           function (response) {
@@ -45,9 +45,27 @@
         return deferred.promise;
       }
 
+      function endGame() {
+        var deferred = $q.defer();
+
+        $http({
+          url: config.url,
+          method: "DELETE",
+          params: { token: config.token }
+        }).then(
+          function (response) {
+            deferred.resolve(response.data);
+          }, function (error) {
+            deferred.reject(error);
+          });
+
+        return deferred.promise;
+      }
+
       return {
         start: start,
-        sendPosicion: sendPosicion
+        sendPosicion: sendPosicion,
+        endGame: endGame 
       };
 
     }]);
