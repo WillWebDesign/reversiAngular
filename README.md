@@ -2,6 +2,8 @@
 
 A simple Reversi game built with Angular.js
 
+##[Demo](https://willwebdesign.github.io/reversiAngular/public/#/)
+
 ## LEGAL
 
 ### Reversi
